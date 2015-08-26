@@ -3,7 +3,10 @@ import requests
 
 
 def getStatusByName(data, name):
-    return filter(lambda x: x['name'] == name, data['sensors']['door_locked'])[0]['value']
+    try:
+        return filter(lambda x: x['name'] == name, data['sensors']['door_locked'])[0]['value']
+    except KeyError:
+        return true
 
 
 def getDoorstatus():

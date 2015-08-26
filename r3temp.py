@@ -22,7 +22,10 @@ def getTempFromSensor():
 
 
 def getTempByName(data, name):
-    return filter(lambda x: x['name'] == name, data['sensors']['temperature'])[0]['value']
+    try:
+        return filter(lambda x: x['name'] == name, data['sensors']['temperature'])[0]['value']
+    except KeyError:
+        return 42
 
 
 def getTemp():
