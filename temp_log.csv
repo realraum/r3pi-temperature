@@ -2466,7 +2466,8 @@ time;temp;locked;kontakted
 1440790203;20.8;False;False
 1440791103;20.8;False;False
 1440792003;20.8;False;False
-1440792903;20.8;False;1440821705;20.8;False;True
+1440792903;20.8;False;False
+1440821705;20.8;False;True
 1440822604;20.8;False;False
 1440823503;20.8;False;False
 1440824404;20.8;False;False
@@ -2725,4 +2726,4 @@ time;temp;locked;kontakted
 1441052103;20.8;False;True
 1441053003;20.8;False;True
 1441053903;20.8;False;True
-1441054805;20.8;False;True
+1441054945;20.8;False;True
